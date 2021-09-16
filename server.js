@@ -8,10 +8,10 @@ const db = knex({
   // Enter your own database information here based on what you created
   client: 'pg',
   connection: {
-    host : 'postgresql-elliptical-04897',
-    user : 'mpantogi',
-    password : '',
-    database : 'smart-brain'
+    host : process.env.DATABASE_URL,
+    ssl: {
+    rejectUnauthorized: false
+    }
   }
 });
 
