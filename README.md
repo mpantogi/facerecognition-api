@@ -1,5 +1,4 @@
-# SmartBrain-api - v1
-Final project for ZTM course
+# facerecognition-api - v1
 
 1. Clone this repo
 2. Run `npm install`
